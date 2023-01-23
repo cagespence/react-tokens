@@ -1,0 +1,64 @@
+{
+  "color": {
+    "background": {
+      "value": "{neutral.100}",
+      "type": "color"
+    }
+  },
+  "border": {
+    "default": {
+      "value": {
+        "color": "#D9D9D9",
+        "width": "1px",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "width": {
+      "default": {
+        "value": 1,
+        "type": "borderWidth"
+      }
+    }
+  },
+  "neutral": {
+    "100": {
+      "value": "#F4F4F4",
+      "type": "color"
+    },
+    "200": {
+      "value": "#D9D9D9",
+      "type": "color"
+    },
+    "600": {
+      "value": "#757575",
+      "type": "color"
+    },
+    "700": {
+      "value": "#3D3D3D",
+      "type": "color"
+    },
+    "800": {
+      "value": "#0B0B0B",
+      "type": "color"
+    }
+  },
+  "radius-small": {
+    "value": 2,
+    "type": "borderRadius"
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "base",
+      "type": "other"
+    },
+    "1": {
+      "value": "alias",
+      "type": "other"
+    },
+    "2": {
+      "value": "component",
+      "type": "other"
+    }
+  }
+}
