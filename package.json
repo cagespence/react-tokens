@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "transform-tokens": "token-transformer src/tokens/tokens.json src/tokens/output.json --resolveReferences=false --expandComposition && style-dictionary build",
+    "transform-tokens": "token-transformer src/tokens/tokens.json src/tokens/output.json --resolveReferences=true && style-dictionary build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "sass": "^1.57.1",
     "style-dictionary": "^3.7.2",
     "token-transformer": "^0.0.29"
   }

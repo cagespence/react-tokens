@@ -17,14 +17,14 @@ module.exports = {
   },
   platforms: {
     scss: {
-      transformGroup: "scss",
+      transformGroup: "css",
       transforms: ["name/cti/kebab", "transformBorders"],
       prefix: "xvt",
       buildPath: "src/styles/generated/",
       files: [
         {
-          destination: "_variables.scss",
-          format: "scss/variables",
+          destination: "_variables.css",
+          format: "css/variables",
           options: {
             outputReferences: true
           }
