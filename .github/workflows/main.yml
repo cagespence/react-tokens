@@ -1,8 +1,7 @@
 name: Process Tokens
 on:
   push:
-    branches:
-    - tokens
+    branches: [ tokens ]
 
 jobs:
   process-tokens:
