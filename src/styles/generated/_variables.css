@@ -1,12 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Jan 2023 16:50:36 GMT
+ * Generated on Tue, 24 Jan 2023 16:24:57 GMT
  */
 
 :root {
   --xvt-token-set-order-2: component;
   --xvt-token-set-order-1: alias;
   --xvt-token-set-order-0: base;
+  --xvt-fontfamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   --xvt-sizing-128: 8rem;
   --xvt-sizing-112: 7rem;
   --xvt-sizing-96: 6rem;
